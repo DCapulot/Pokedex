@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pokédex</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pokedex-style.css">
+</head>
+<body>
+
+<div class="dex">
+  <div class="dex-topo">
+    <span class="lente"></span>
+    <span class="luz luz-amarela"></span>
+    <span class="luz luz-verde"></span>
+    <span class="luz luz-vermelha"></span>
+  </div>
+
+  <div class="tela-moldura">
+    <div class="tela" id="tela">
+      <p class="placeholder">digite um nome ou número</p>
+    </div>
+  </div>
+
+  <form class="controles" id="form">
+    <input id="busca" placeholder="pikachu, 25..." autocomplete="off">
+    <button type="submit">Buscar</button>
+  </form>
+
+  <p class="rodape">dados via PokéAPI</p>
+</div>
+
+<script src="pokedex-script.js"></script>
+</body>
+</html>
